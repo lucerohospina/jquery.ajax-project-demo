@@ -1,0 +1,28 @@
+body {
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.titles-font {
+  font-size: 4em;
+}
+
+.paragraphs-font {
+  font-size: 1.5em;
+}
+
+#submit-btn {
+  position: absolute;
+ left: 35%;
+}
+
+.go-back-btn {
+  color: #000;
+}
+
+@media (min-width: 768px) {
+  #submit-btn {
+    position: absolute;
+    left: 45%;
+  }
+}
